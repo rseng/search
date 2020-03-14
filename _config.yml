@@ -1,0 +1,28 @@
+# Setup
+title:        vsoch/search
+baseurl:      "/search"
+repository:    vsoch/search
+
+# Scrolltop color
+scrolltop_color: "#fd1268"
+
+# Collections
+collections:
+    issues:
+      output: false
+      permalink: /:collection/:title/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+#Others
+markdown: kramdown
+
+plugins:
+  - github-pages
