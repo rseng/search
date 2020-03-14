@@ -1,7 +1,7 @@
 # Setup
-title:        vsoch/search
+title:        rseng/search
 baseurl:      "/search"
-repository:    vsoch/search
+repository:    rseng/search
 
 # Scrolltop color
 scrolltop_color: "#fd1268"
